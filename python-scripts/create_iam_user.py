@@ -1,4 +1,11 @@
 import boto3
+import logging
+
+logging.basicConfig(
+    filename='logs/iam.log',
+    level=logging.INFO,
+    format='%(asctime)s %(levelname)s %(message)s'
+)
 
 iam = boto3.client('iam')
 
@@ -8,6 +15,8 @@ try:
     )
 
     print("IAM User Created Successfully")
+    logging.info("IAM user created successfully")
 
 except Exception as e:
     print("Error:", e)
+    logging.error(str(e))

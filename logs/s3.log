@@ -1,0 +1,2 @@
+2026-05-17 05:35:23,362 INFO Found credentials in shared credentials file: ~/.aws/credentials
+2026-05-17 05:35:23,955 ERROR An error occurred (BucketAlreadyOwnedByYou) when calling the CreateBucket operation: Your previous request to create the named bucket succeeded and you already own it.

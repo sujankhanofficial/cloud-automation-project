@@ -1,0 +1,2 @@
+2026-05-17 05:37:35,897 INFO Found credentials in shared credentials file: ~/.aws/credentials
+2026-05-17 05:37:36,067 ERROR An error occurred (EntityAlreadyExists) when calling the CreateUser operation: User with name automation-user already exists.
